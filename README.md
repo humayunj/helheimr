@@ -2,7 +2,7 @@
 Created from Hardhat sample project.
 
 # Why?
-(OpenSea guide)[https://docs.opensea.io/docs/1-structuring-your-smart-contract] is a little bloated and verbosed, so I created this simple NFT contract in Hardhat for beginners to catchup. The metadata server is also included. Update the URIs in contract if you use your own metadata server.
+[OpenSea guide](https://docs.opensea.io/docs/1-structuring-your-smart-contract) is a little bloated and verbosed, so I created this simple NFT contract in Hardhat for beginners to catchup. The metadata server is also included. Update the URIs in contract if you use your own metadata server.
 
 # Setup
 
@@ -14,7 +14,7 @@ Rename `.env.sample` to `.env` and full the required value.
 
 Also rename `network.config.js.sample` to `network.config.js` and replace the placeholders. 
 
-Headover to (https://infura.io)[https://infura.io/] to get project Id (use rinkeby testnet), and use metamask to copy your wallet private key. Make sure it has some ETH (to deploy and mint) ( you can get more at (https://faucet.rinkeby.io)[https://faucet.rinkeby.io/] )
+Headover to [https://infura.io](https://infura.io/) to get project Id (use rinkeby testnet), and use metamask to copy your wallet private key. Make sure it has some ETH (to deploy and mint) ( you can get more at [https://faucet.rinkeby.io](https://faucet.rinkeby.io/) )
 
 IMPORTNANT: If you use any other testnet other than Rinkeby, make sure you replace OpenSea proxy registry in your `.env` file. Though I coudn't find any other registries except Rinkeby and mainnet.
 
@@ -30,9 +30,9 @@ Initially you won't have any tokens minted. Run `yarn hardhat run --network rink
 
 ## Viewing on OpenSea
 Once the contract is deployed and you've mint some tokens, make sure the metadata server is running,then head over to the following URL to 
-(https://testnets.opensea.io/assets/<YOUR_CONTRACT_ADDRESS>/<TOKEN_ID>)[https://testnets.opensea.io/assets/<YOUR_CONTRACT_ADDRESS>/<TOKEN_ID>] view your token. Use refresh button if there's any metadata issue.
+[https://testnets.opensea.io/assets/<YOUR_CONTRACT_ADDRESS>/<TOKEN_ID>](https://testnets.opensea.io/assets/<YOUR_CONTRACT_ADDRESS>/<TOKEN_ID>) view your token. Use refresh button if there's any metadata issue.
 
-Sample URL: (https://testnets.opensea.io/assets/0x71EcEaF1a6DC47E4f8555838f26735851a80c74f/1)[https://testnets.opensea.io/assets/0x71EcEaF1a6DC47E4f8555838f26735851a80c74f/1]
+Sample URL: [https://testnets.opensea.io/assets/0x71EcEaF1a6DC47E4f8555838f26735851a80c74f/1](https://testnets.opensea.io/assets/0x71EcEaF1a6DC47E4f8555838f26735851a80c74f/1)
 
 ## Trading
 Connect your metamask wallet with opensea to use the opensea trading features like auctions. 
