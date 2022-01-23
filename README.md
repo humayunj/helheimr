@@ -25,7 +25,7 @@ Run `yarn hardhat test` or `npx hardhat test` to test.
 ## Deployment
 Make sure configured the project, deploy the project using `yarn hardhat run --network rinkeby scripts/deploy.js` or `npx hardhat run --network rinkeby scripts/deploy.js`. Once deployed you would get contract address, copy the address to .env file for the next step.
 
-## Mint
+## Minting
 Initially you won't have any tokens minted. Run `yarn hardhat run --network rinkeby scripts/mint.js` or `npx hardhat run --network rinkeby scripts/mint.js` to mint a single token. Edit the script to mint more.
 
 ## Viewing on OpenSea
