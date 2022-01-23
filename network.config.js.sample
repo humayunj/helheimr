@@ -1,0 +1,23 @@
+// Create an account on Infura or Alchemy or any ethereum API provider.
+// and use their API url
+
+// template
+/**
+ * <network>: {
+    url: "<url>",
+    accounts: [
+      "<owner private key to deploy contract>",
+    ],
+  },
+*/
+
+module.exports = {
+  // if you're using rinkeby
+  rinkeby: {
+    // use Alchemy URL if you prefer
+    url: `https://rinkeby.infura.io/v3/YOUR_INFURA_PROJECT_ID`,
+
+    // Use metamask, have some ETH and double check the network
+    accounts: ["<owner private key to deploy contract>"],
+  },
+};
