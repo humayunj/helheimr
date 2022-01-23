@@ -32,6 +32,8 @@ Initially you won't have any tokens minted. Run `yarn hardhat run --network rink
 Once the contract is deployed and you've mint some tokens, make sure the metadata server is running,then head over to the following URL to 
 (https://testnets.opensea.io/assets/<YOUR_CONTRACT_ADDRESS>/<TOKEN_ID>)[https://testnets.opensea.io/assets/<YOUR_CONTRACT_ADDRESS>/<TOKEN_ID>] view your token. Use refresh button if there's any metadata issue.
 
+Sample URL: (https://testnets.opensea.io/assets/0x71EcEaF1a6DC47E4f8555838f26735851a80c74f/1)[https://testnets.opensea.io/assets/0x71EcEaF1a6DC47E4f8555838f26735851a80c74f/1]
+
 ## Trading
 Connect your metamask wallet with opensea to use the opensea trading features like auctions. 
 
